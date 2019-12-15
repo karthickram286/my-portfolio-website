@@ -13,6 +13,7 @@
     "react": "^16.9.0",
     "react-dom": "^16.9.0",
     "react-helmet": "^5.2.1",
+    "react-icons": "^3.8.0",
     "react-images": "^1.0.0"
   },
   "keywords": [
@@ -22,6 +23,7 @@
   "scripts": {
     "build": "gatsby build",
     "develop": "gatsby develop",
+    "start": "npm run develop",
     "format": "prettier --write '**/*.js'",
     "test": "echo \"Error: no test specified\" && exit 1"
   },

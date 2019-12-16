@@ -70,6 +70,11 @@ class HomeIndex extends React.Component {
                     </section>
 
                     <section id="three">
+                    <h2>Github Contribution</h2>
+                    <center><img src={"http://ghchart.rshah.org/karthickram286"} alt="Github contributions"></img></center>
+                    </section>
+
+                    <section id="four">
                         <h2>Get In Touch</h2>
                         <p>Accumsan pellentesque commodo blandit enim arcu non at amet id arcu magna. Accumsan orci faucibus id eu lorem semper nunc nisi lorem vulputate lorem neque lorem ipsum dolor.</p>
                         <div className="row">

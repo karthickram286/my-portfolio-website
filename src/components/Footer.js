@@ -19,7 +19,8 @@ class Footer extends React.Component {
                         <li><a href="https://www.xing.com/profile/Karthick_Ramachandran3/cv" className="icon fa-xing-square"><span className="label">Xing</span></a></li>
                     </ul>
                     <ul className="copyright">
-                        <li>Made with ❤️ at Chennai</li>
+                        <li>Made with ❤️at Chennai</li>
+                        <li>&copy; Karthick Ram</li>
                     </ul>
                 </div>
             </div>

@@ -207,6 +207,24 @@
 		}
 	}
 
+	.project {
+		display: flex;
+		flex-direction: row;
+		margin-bottom: 50px;
+		img {
+			width: 370px;
+			height: 217px;
+			border-radius: 2%;
+			border-color: green;
+			border-style: solid;
+		}
+	}
+
+	.projectDetails {
+		float: left;
+		margin-left: 80px;
+	}
+
 	header {
 		p {
 			color: _palette(fg-light);

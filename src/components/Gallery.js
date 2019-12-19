@@ -13,14 +13,25 @@ class Gallery extends Component {
 
         const gallery = images.map((obj, i) => {
             return (
-                <article className="8u 12u$(xsmall) work-item" key={i}>
-                    <img alt="thumbnail" src={obj.thumbnail} />
-                    <div>
-                        <h2>{obj.caption}</h2>
-                        <p>{obj.description}</p>
-                        <h2><a href={obj.githubLink} target="_blank" rel="noopener noreferrer">GitHub</a></h2> <h2><a href={obj.liveVersion} target="_blank" rel="noopener noreferrer">Live</a></h2>
+                <div className="project">
+                    <div key={i}>
+                        <img alt="thumbnail" src={obj.thumbnail} />
                     </div>
-                </article>
+                    <div className="projectDetails" key={i}>
+                            <h2>{obj.caption}</h2>
+                            <h5>{obj.description}</h5>
+                            <ul className="icons">
+                                {(() => {
+                                    if (obj.githubLink !== '') {
+                                        return(
+                                            <li><p title="GitHub"><a href={obj.githubLink} className="icon fa-github" target="_blank" rel="noopener noreferrer"><span> GitHub</span></a></p></li>
+                                        )
+                                    }
+                                })()}
+                                <li><p title="Live version"><a href={obj.liveVersion} className="icon fa-globe" target="_blank" rel="noopener noreferrer"><span> Live version</span></a></p></li>
+                            </ul>
+                    </div>
+                </div>
             );
         });
 

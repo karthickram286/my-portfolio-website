@@ -41,7 +41,7 @@
 	));
 
 	$size-header-width: 35%;
-	$size-header-pad: 4em;
+	$size-header-pad: 2em;
 
 /* Basic */
 
@@ -921,7 +921,7 @@
 		@include vendor('justify-content', 'space-between');
 		background-color:		_palette(accent2, bg);
 		background-attachment:	scroll,								fixed;
-		background-image:		url('images/overlay.png'),			url('../images/bg.jpg');
+		background-image:		url('images/overlay.png'),			url('../images/bg2.jpg');
 		background-position:	top left,							top left;
 		background-repeat:		repeat,								no-repeat;
 		background-size:		auto,								auto 100%;
@@ -954,8 +954,8 @@
 
 		h1 {
 			color: _palette(accent2, fg);
-			font-size: 1.35em;
-			line-height: 1.75em;
+			font-size: 1.40em;
+			line-height: 1.50em;
 			margin: 0;
 		}
 

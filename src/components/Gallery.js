@@ -8,10 +8,21 @@ class Gallery extends Component {
 
         };
     }
+
     renderGallery (images) {
         if (!images) return;
 
         const gallery = images.map((obj, i) => {
+            let githubLink;
+            if (obj.githubLink) {
+                githubLink = <li><p title="GitHub"><a href={obj.githubLink} className="icon fa-github" target="_blank" rel="noopener noreferrer"><span> GitHub</span></a></p></li>
+            }
+
+            let liveVersionLink;
+            if (obj.liveVersion) {
+                liveVersionLink = <li><p title="Live version"><a href={obj.liveVersion} className="icon fa-globe" target="_blank" rel="noopener noreferrer"><span> Live version</span></a></p></li>
+            }
+
             return (
                 <div className="project">
                     <div key={i}>
@@ -21,14 +32,8 @@ class Gallery extends Component {
                             <h2>{obj.caption}</h2>
                             <h5>{obj.description}</h5>
                             <ul className="icons">
-                                {(() => {
-                                    if (obj.githubLink !== '') {
-                                        return(
-                                            <li><p title="GitHub"><a href={obj.githubLink} className="icon fa-github" target="_blank" rel="noopener noreferrer"><span> GitHub</span></a></p></li>
-                                        )
-                                    }
-                                })()}
-                                <li><p title="Live version"><a href={obj.liveVersion} className="icon fa-globe" target="_blank" rel="noopener noreferrer"><span> Live version</span></a></p></li>
+                                { githubLink }
+                                { liveVersionLink }
                             </ul>
                     </div>
                 </div>

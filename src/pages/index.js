@@ -38,9 +38,14 @@ class HomeIndex extends React.Component {
 
                     <section id="one">
                         <header className="major">
-                            <h1>Fullstack Developer</h1>
+                            <h1>About Me</h1>
                         </header>
-                        <p>Hello. My name is <strong>Karthick Ram</strong>, a Fullstack developer since 2017. I currently work as a Backend Engineer at <a href="https://www.zoho.com" target="_blank" rel="noopener noreferrer">Zoho Corporation</a>. In my spare time, I keep myself occupied with side projects. To see what I've been upto lately check-out my <a href="https://the-code-less-travelled.netlify.com/" target="_blank" rel="noopener noreferrer">blog</a>.</p>
+                        <p>Hello, and welcome to <strong>Karthick Ram's</strong>, corner of the Internet. I'm 23 years old and a Software Developer by profession.<br /><br />
+                        I was born and grew up in <a href="https://en.wikipedia.org/wiki/Chennai" target="_blank" rel="noopener noreferrer">Chennai</a>. Unfortunately, I have not traveled the world yet.<br /><br />
+                        I earned my Bachelor's degree in Information Technology from <a href="https://en.wikipedia.org/wiki/Anna_University" target="_blank" rel="noopener noreferrer">Anna University</a>.
+                        Then I joined <a href="https://www.zoho.com" target="_blank" rel="noopener noreferrer">Zoho Corporation</a> to work as a Software Developer.<br /><br />
+                        I build products using Java and JavaScript. Besides that, I love to read about Product Design, Scalable systems and problem-solving. To know what I've been up to lately you can follow my <a href="https://the-code-less-travelled.netlify.com/" target="_blank" rel="noopener noreferrer">tech-blog.</a><br />
+                        </p>
                     </section>
 
                     <section id="two">
@@ -57,8 +62,11 @@ class HomeIndex extends React.Component {
                     </section>
 
                     <section id="three">
-                    <h2><a href="https://github.com/karthickram286" target="_blank" rel="noopener noreferrer">GitHub</a> Contribution</h2>
-                    <center><img src={"http://ghchart.rshah.org/karthickram286"} alt="Github contributions"></img></center>
+                        <h2>My <a 
+                                href="https://github.com/karthickram286" 
+                                target="_blank" rel="noopener noreferrer">GitHub</a> Contribution
+                        </h2>
+                        <center><img src={"http://ghchart.rshah.org/karthickram286"} alt="Github contributions"></img></center>
                     </section>
 
                     <section id="four">

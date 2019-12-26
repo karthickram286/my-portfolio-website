@@ -1,18 +1,7 @@
-# gatsby-starter-strata
+# My Portfolio website [![Netlify Status](https://api.netlify.com/api/v1/badges/e427dcbd-49ab-4912-a569-18856bae418e/deploy-status)](https://app.netlify.com/sites/karthick-ram/deploys)
+This is my Portfolio website built with the help of Gatsby.js and hosted on Netlify.
 
-**This is a starter for Gatsby.js V2.**
-
-**The older V1 version of this starter can be found on the v1 branch**
-
-Gatsby starter based on the Strata site template, designed by [HTML5 UP](https://html5up.net/strata). Check out https://codebushi.com/gatsby-starters-and-themes/ for more Gatsby starters and templates.
-
-## Preview
-
-http://gatsby-strata.surge.sh/
-
-## Installation
-
-Install this starter (assuming Gatsby is installed) by running from your CLI:
-`gatsby new gatsby-starter-strata https://github.com/ChangoMan/gatsby-starter-strata`
-
-Run `gatsby develop` in the terminal to start.
+## Run it locally
+- clone the project
+- Run `npm install`
+- Run `npm start`

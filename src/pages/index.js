@@ -5,20 +5,12 @@ import Layout from '../components/layout'
 // import Lightbox from 'react-images'
 import Gallery from '../components/Gallery'
 
-import thumb02 from '../assets/images/thumbs/02.jpg'
-import thumb03 from '../assets/images/thumbs/03.jpg'
-import thumb04 from '../assets/images/thumbs/04.jpg'
-import thumb05 from '../assets/images/thumbs/05.jpg'
-import thumb06 from '../assets/images/thumbs/06.jpg'
 import revista from '../assets/images/thumbs/revista.png'
+import activityLogger from '../assets/images/thumbs/activityLogger.png'
 
 const DEFAULT_IMAGES = [
     { id: '1', thumbnail: revista, caption: 'Revista', description: 'A Journal app built using MERN stack.', githubLink: 'https://github.com/karthickram286/Revista', liveVersion: 'https://cryptic-oasis-70200.herokuapp.com/'},
-    { id: '2', thumbnail: thumb02, caption: 'Photo 2', description: 'Lorem ipsum'},
-    { id: '3', thumbnail: thumb03, caption: 'Photo 3', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '4', thumbnail: thumb04, caption: 'Photo 4', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '5', thumbnail: thumb05, caption: 'Photo 5', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'},
-    { id: '6', thumbnail: thumb06, caption: 'Photo 6', description: 'Lorem ipsum dolor sit amet nisl sed nullam feugiat.'}
+    { id: '2', thumbnail: activityLogger, caption: 'Activity Logger', description: 'Activity Logger application to track activity of various users', githubLink: 'https://github.com/karthickram286/activity-logger'},
 ];
 
 class HomeIndex extends React.Component {

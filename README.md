@@ -5,3 +5,8 @@ This is my Portfolio website built with the help of Gatsby.js and hosted on Netl
 - clone the project
 - Run `npm install`
 - Run `npm start`
+
+## View the live version
+https://karthick-ram.netlify.com 
+
+

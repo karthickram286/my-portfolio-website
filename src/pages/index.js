@@ -84,6 +84,10 @@ class HomeIndex extends React.Component {
                                         No.2, Anna Street, Thiru nagar, Anakaputhur<br />
                                         Chennai, Tamil Nadu 600070, India.
                                     </li>
+                                    <li>
+                                        <h3 className="icon fa-calendar"><span className="label">Calendly</span></h3>
+                                        <a href="https://calendly.com/karthick-ram" target="_blank" rel="noopener noreferrer">Schedule a meeting</a>
+                                    </li>
                                 </ul>
                             </div>
                         </div>

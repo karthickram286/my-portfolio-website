@@ -7,6 +7,6 @@ This is my Portfolio website built with the help of Gatsby.js and hosted on Netl
 - Run `npm start`
 
 ## View the live version
-https://karthick-ram.netlify.com 
+https://karthick-ram.netlify.app 
 
 

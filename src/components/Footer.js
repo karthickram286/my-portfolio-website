@@ -17,7 +17,7 @@ class Footer extends React.Component {
                         <li><a href="https://medium.com/@karthick_ram96" className="icon fa-medium"><span className="label">Medium</span></a></li>
                         <li><a href="https://www.hackerrank.com/Karthick_ram"><FaHackerrank></FaHackerrank></a></li>
                         <li><a href="https://www.xing.com/profile/Karthick_Ramachandran3/cv" className="icon fa-xing-square"><span className="label">Xing</span></a></li>
-                        <li><a href="https://angel.co/karthick-r-13" className="icon fa-angellist"><span className="label">AngelList</span></a></li>
+                        <li><a href="https://angel.co/karthick-r-13" className="icon fa-angellist"><span className="label">AngelList</span></a></li>                
                     </ul>
                     <ul className="copyright">
                         <li>Made with <span role="img" aria-label="heart">❤️</span>at Chennai</li>

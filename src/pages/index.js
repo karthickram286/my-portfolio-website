@@ -32,11 +32,13 @@ class HomeIndex extends React.Component {
                         <header className="major">
                             <h1>About Me</h1>
                         </header>
-                        <p>Hello, and welcome to <strong>Karthick Ram's</strong>, corner of the Internet. I'm 23 years old and a Software Developer by profession.<br /><br />
-                        I was born and grew up in <a href="https://en.wikipedia.org/wiki/Chennai" target="_blank" rel="noopener noreferrer">Chennai</a>. Unfortunately, I have not traveled the world yet.<br /><br />
-                        I earned my Bachelor's degree in Information Technology from <a href="https://en.wikipedia.org/wiki/Anna_University" target="_blank" rel="noopener noreferrer">Anna University</a>.
-                        Then I joined <a href="https://www.zoho.com" target="_blank" rel="noopener noreferrer">Zoho Corporation</a> to work as a Software Developer.<br /><br />
-                        I build products using Java and JavaScript. Besides that, I love to read about Product Design, Scalable systems and problem-solving. To know what I've been up to lately you can follow my <a href="https://the-code-less-travelled.netlify.com/" target="_blank" rel="noopener noreferrer">tech-blog.</a><br />
+                        <p>Hello, and welcome to <strong>Karthick Ram's</strong>, corner of the Internet. I'm 24 years old and a Software Developer by profession.<br /><br />
+                        I was born and grew up in <a href="https://en.wikipedia.org/wiki/Chennai" target="_blank" rel="noopener noreferrer">Chennai</a> and I love it here. Unfortunately, I have not traveled the world yet.<br /><br />
+                        Earned my Bachelor's degree in Information Technology from <a href="https://en.wikipedia.org/wiki/Anna_University" target="_blank" rel="noopener noreferrer">Anna University</a>,
+                        and I'm currently working as a Software Engineer in <a href="https://www.samsung.com" target="_blank" rel="noopener noreferrer">Samsung Electronics</a>. 
+                        I was working at <a href="https://www.zoho.com" target="_blank" rel="noopener noreferrer">Zoho Corporation</a> prior this.<br /><br />
+                        I build products using Java and JavaScript. Besides that, I love to read about Product Design, Scalable systems and problem-solving. To know what I've been up to lately you can follow my <a href="https://the-code-less-travelled.netlify.com/" target="_blank" rel="noopener noreferrer">tech-blog.</a><br /><br />
+                        I religiously follow football and a diehard fan of <a href="https://en.wikipedia.org/wiki/Chelsea_F.C." target="_blank" rel="noopener noreferrer">Chelsea Football Club</a>. Keep the Blue flag flying high 💙.<br /> 
                         </p>
                     </section>
 
